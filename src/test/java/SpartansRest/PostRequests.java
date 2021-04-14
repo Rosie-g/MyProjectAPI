@@ -105,7 +105,7 @@ public class PostRequests extends SpartanNoAuth {
     @Test
     public void testPostDataWithPOJOAsBody(){
 
-        Spartan spartan = new Spartan("Roza","Female",2344322345l);
+        Spartan spartan = new Spartan("Lika","Female",2300322365l);
 
         given()
                 .log().all()
